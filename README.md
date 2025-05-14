@@ -1,5 +1,5 @@
 
-![HQ graphic](https://github.com/digibson3/Data-Visualization/blob/lcannon/Images/dog%20title.jpg).
+![HQ graphic](https://github.com/Lanceowesalot/CryptoClustering/blob/main/images/crypto%20squish.jpg).
 # 📊 Crypto Clustering Analysis Bootcamp
 
 This project performs clustering analysis on cryptocurrency data using K-means and Principal Component Analysis (PCA). It is designed as part of a Data Analysis Bootcamp to help you explore unsupervised machine learning techniques and visualize cluster behaviors in crypto markets.
@@ -67,14 +67,15 @@ This notebook explores how clustering algorithms, particularly K-means, can be a
 
 - Load and clean cryptocurrency market data
 - Handle missing values and filter for relevant coins
+![HQ graphic](https://github.com/Lanceowesalot/CryptoClustering/blob/main/images/yearly%20change.jpg).
 
 ### K-means Clustering on Original Data
 
 - Scale original features
 - Use the elbow method to identify the optimal number of clusters
-![HQ graphic](https://github.com/digibson3/Data-Visualization/blob/lcannon/Images/dog%20title.jpg).
+![HQ graphic](https://github.com/Lanceowesalot/CryptoClustering/blob/main/images/original%20elbow.jpg).
 - Apply K-means clustering
-![HQ graphic](https://github.com/digibson3/Data-Visualization/blob/lcannon/Images/dog%20title.jpg).
+![HQ graphic](https://github.com/Lanceowesalot/CryptoClustering/blob/main/images/PCA%20Plot.jpg).
 
 ### Principal Component Analysis (PCA)
 
@@ -85,13 +86,13 @@ This notebook explores how clustering algorithms, particularly K-means, can be a
 
 - Use the reduced dimensions to re-cluster data
 - Optimize cluster performance and visualize
-![HQ graphic](https://github.com/digibson3/Data-Visualization/blob/lcannon/Images/dog%20title.jpg).
+![HQ graphic](https://github.com/Lanceowesalot/CryptoClustering/blob/main/images/pca%20plot%20reduced.jpg).
 
 ### Compare and Visualize Results
 
 - Plot original vs PCA-based clusters
-![HQ graphic](https://github.com/digibson3/Data-Visualization/blob/lcannon/Images/dog%20title.jpg).
-![HQ graphic](https://github.com/digibson3/Data-Visualization/blob/lcannon/Images/dog%20title.jpg).
+![HQ graphic](https://github.com/Lanceowesalot/CryptoClustering/blob/main/images/elbow%20comparison.png).
+![HQ graphic](https://github.com/Lanceowesalot/CryptoClustering/blob/main/images/cluster%20comparison.jpg).
 - Analyze how well PCA improves interpretability and separation
 
 ---
