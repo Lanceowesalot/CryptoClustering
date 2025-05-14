@@ -99,4 +99,21 @@ This notebook explores how clustering algorithms, particularly K-means, can be a
 
 ## ✅ Conclusion
 
-By the end of this notebook, you will understand how clustering techniques can reveal patterns in crypto market behavior and how PCA can improve performance by reducing noise in the dataset.
+📌 Cluster Analysis of Cryptocurrencies
+After performing K-Means clustering on both the original scaled features and PCA-reduced features, we can draw the following conclusions:
+
+*  PCA Visualization Enhances Clarity: The PCA-reduced data produces more compact and visually distinct clusters. Dominant groupings (e.g., red and blue) appear more separated, making it easier to visually identify patterns and outliers.
+
+*  Outlier Detection: PCA helps highlight unique cases like Celsius Degree Token and Tezos, which stand out more clearly in PCA space. However, some mixing still occurs between outliers and larger clusters.
+
+*  Trade-off in Interpretability:
+
+    *  With original features, we can trace back cluster behavior to actual financial performance metrics (like 24h or 7d price changes), which provides actionable insights.
+
+    *  With PCA, the dimensions lose that real-world interpretability but are beneficial for simplifying high-dimensional data.
+
+*  Recommendation: Both clustering methods produce meaningful groupings, and the choice depends on your goal:
+
+    *  Use original features if interpretability and domain insight are important.
+
+    *  Use PCA if you're focused on visualization, performance, or reducing dimensionality in larger datasets.
